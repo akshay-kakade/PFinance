@@ -8,11 +8,14 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['"DM Sans"', 'sans-serif'],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        vibePink: '#f9c5d1',
+        vibeBlue: '#c1d3fe',
       },
     },
-  },
-  plugins: [],
+  },  
+  
 } satisfies Config;
